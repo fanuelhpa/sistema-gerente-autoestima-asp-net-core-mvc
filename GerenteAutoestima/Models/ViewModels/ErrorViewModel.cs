@@ -1,6 +1,6 @@
 using System;
 
-namespace GerenteAutoestima.Models
+namespace GerenteAutoestima.Models.ViewModels
 {
     public class ErrorViewModel
     {

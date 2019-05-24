@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using GerenteAutoestima.Models;
+using GerenteAutoestima.Models.ViewModels;
 
 namespace GerenteAutoestima.Controllers
 {
@@ -17,7 +17,8 @@ namespace GerenteAutoestima.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sistema de gerenciamento do Salão Autoestima";
+            ViewData["Email"] = "riquezerofive@gmail.com";
 
             return View();
         }

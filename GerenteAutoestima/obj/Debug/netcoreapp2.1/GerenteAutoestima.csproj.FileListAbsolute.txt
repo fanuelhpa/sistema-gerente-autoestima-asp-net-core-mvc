@@ -30,3 +30,4 @@ C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.1\Ge
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.1\GerenteAutoestima.dll
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.1\GerenteAutoestima.pdb
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.1\GerenteAutoestima.csproj.CopyComplete
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.1\Razor\Views\CategoriaProduto\Index.g.cshtml.cs

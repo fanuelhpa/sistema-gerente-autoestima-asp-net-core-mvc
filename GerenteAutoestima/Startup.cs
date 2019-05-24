@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using GerenteAutoestima.Models;
 
 namespace GerenteAutoestima
 {
@@ -33,6 +35,10 @@ namespace GerenteAutoestima
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<GerenteAutoestimaContext>(options =>
+                    options.UseMySql(Configuration.GetConnectionString("GerenteAutoestimaContext"), builder => 
+                    builder.MigrationsAssembly("GerenteAutoestima")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

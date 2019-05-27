@@ -13,6 +13,7 @@ namespace GerenteAutoestima.Models
         {
         }
 
-        public DbSet<GerenteAutoestima.Models.CategoriaProduto> CategoriaProduto { get; set; }
+        public DbSet<CategoriaProduto> CategoriaProduto { get; set; }
+        public DbSet<Produto> Produto { get; set; }
     }
 }

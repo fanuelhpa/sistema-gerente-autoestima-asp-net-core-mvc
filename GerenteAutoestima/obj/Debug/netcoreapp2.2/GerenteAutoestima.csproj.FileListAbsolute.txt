@@ -35,3 +35,8 @@ C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Ge
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\GerenteAutoestima.dll
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\GerenteAutoestima.pdb
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\GerenteAutoestima.csproj.CopyComplete
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Create.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Delete.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Details.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Edit.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Index.g.cshtml.cs

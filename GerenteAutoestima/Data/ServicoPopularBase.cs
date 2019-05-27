@@ -29,11 +29,11 @@ namespace GerenteAutoestima.Data
             CategoriaProduto catProd4 = new CategoriaProduto(4, "Pente");
 
             //Produtos
-            Produto prod1 = new Produto(1, "Seda Ceramidas", 10.00, 5, catProd1);
-            Produto prod2 = new Produto(2, "Palmolive", 9.00, 8, catProd1);
-            Produto prod3 = new Produto(3, "Seda Ceramidas", 8.00, 6, catProd2);
-            Produto prod4 = new Produto(4, "Salon Line", 15.00, 9, catProd3);
-            Produto prod5 = new Produto(5, "Hair Life", 12.00, 4, catProd4);
+            Produto prod1 = new Produto(1, "Seda Ceramidas", 10.75, 5, catProd1);
+            Produto prod2 = new Produto(2, "Palmolive", 9.50, 8, catProd1);
+            Produto prod3 = new Produto(3, "Seda Ceramidas", 8.20, 6, catProd2);
+            Produto prod4 = new Produto(4, "Salon Line", 15.30, 9, catProd3);
+            Produto prod5 = new Produto(5, "Taiff", 12.90, 4, catProd4);
 
             //adiciona os objetos criados nas tabelas
             _context.CategoriaProduto.AddRange(catProd1, catProd2, catProd3, catProd4);

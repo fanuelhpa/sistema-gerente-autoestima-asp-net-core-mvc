@@ -10,7 +10,7 @@ namespace GerenteAutoestima.Models
         public int Id { get; set; }
         public string Nome { get; set; }
         public double Preco { get; set; }
-        public int QuantidadeDisponivel { get; private set; }
+        public int QuantidadeDisponivel { get; set; }
         public CategoriaProduto CategoriaProduto { get; set; }
 
         public Produto() { }

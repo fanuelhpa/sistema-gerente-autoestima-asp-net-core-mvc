@@ -13,19 +13,22 @@ namespace GerenteAutoestima.Models
         public StatusAgenda StatusAgenda { get; set; }
         public Servico Servico { get; set; }
         public Usuario Usuario { get; set; }
+        public Funcionario Funcionario { get; set; }
 
         public AgendaServico()
         {
         }
 
-        public AgendaServico(int id, DateTime dataHora, StatusAgenda statusAgenda, Servico servico, Usuario usuario)
+        public AgendaServico(int id, DateTime dataHora, StatusAgenda statusAgenda, Servico servico, Usuario usuario, Funcionario funcionario)
         {
             Id = id;
             DataHora = dataHora;
             StatusAgenda = statusAgenda;
             Servico = servico;
             Usuario = usuario;
+            Funcionario = funcionario;
         }
+
     }
 
 }

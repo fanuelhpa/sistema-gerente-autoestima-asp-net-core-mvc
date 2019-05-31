@@ -3,14 +3,16 @@ using System;
 using GerenteAutoestima.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GerenteAutoestima.Migrations
 {
     [DbContext(typeof(GerenteAutoestimaContext))]
-    partial class GerenteAutoestimaContextModelSnapshot : ModelSnapshot
+    [Migration("20190531130844_OtherEntities")]
+    partial class OtherEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

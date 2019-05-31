@@ -11,8 +11,8 @@ namespace GerenteAutoestima.Models
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-
         public ICollection<AgendaServico> AgendasServicos { get; private set; } = new List<AgendaServico>();
+        public ICollection<Telefone> Telefones { get; set; } = new List<Telefone>();
 
         public Usuario()
         {

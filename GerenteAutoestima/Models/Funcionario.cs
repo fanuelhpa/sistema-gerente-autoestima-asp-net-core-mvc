@@ -9,6 +9,7 @@ namespace GerenteAutoestima.Models
 {
     public class Funcionario
     {
+        public int Id { get; set; }
         public TipoFuncionario TipoFuncionario { get; set; }
         public Usuario Usuario { get; set; }
         public ICollection<AgendaServico> AgendasServicos { get; private set; } = new List<AgendaServico>();
@@ -17,8 +18,9 @@ namespace GerenteAutoestima.Models
         {
         }
 
-        public Funcionario(TipoFuncionario tipoFuncionario, Usuario usuario)
+        public Funcionario(int id, TipoFuncionario tipoFuncionario, Usuario usuario)
         {
+            Id = id;
             TipoFuncionario = tipoFuncionario;
             Usuario = usuario;
         }

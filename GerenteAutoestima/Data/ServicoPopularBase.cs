@@ -35,13 +35,20 @@ namespace GerenteAutoestima.Data
             Produto prod4 = new Produto(4, "Salon Line", 15.30, 9, catProd3);
             Produto prod5 = new Produto(5, "Taiff", 12.90, 4, catProd4);
 
+            CategoriaServico catServ1 = new CategoriaServico(1, "Prancha");
+            CategoriaServico catServ2 = new CategoriaServico(2, "Escova Pequena");
+            CategoriaServico catServ3 = new CategoriaServico(3, "Escova Média");
+            CategoriaServico catServ4 = new CategoriaServico(4, "Escova Grande");
+            CategoriaServico catServ5 = new CategoriaServico(5, "Alisamento");
+            CategoriaServico catServ6 = new CategoriaServico(6, "Mechas");
+            CategoriaServico catServ7 = new CategoriaServico(7, "Rolinho");
+
             //adiciona os objetos criados nas tabelas
             _context.CategoriaProduto.AddRange(catProd1, catProd2, catProd3, catProd4);
             _context.Produto.AddRange(prod1, prod2, prod3, prod4, prod5);
+            _context.CategoriaServico.AddRange(catServ1, catServ2, catServ3, catServ4, catServ5, catServ6, catServ7);
 
-            //efetiva as alterações
             _context.SaveChanges();
-
         }
     }
 }

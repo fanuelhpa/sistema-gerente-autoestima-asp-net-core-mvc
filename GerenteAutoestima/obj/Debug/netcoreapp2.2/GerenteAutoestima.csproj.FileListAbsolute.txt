@@ -40,3 +40,8 @@ C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Ra
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Details.g.cshtml.cs
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Edit.g.cshtml.cs
 C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Index.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\CategoriasServicos\Create.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\CategoriasServicos\Delete.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\CategoriasServicos\Details.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\CategoriasServicos\Edit.g.cshtml.cs
+C:\temp\ws-csharp\GerenteAutoestima\GerenteAutoestima\obj\Debug\netcoreapp2.2\Razor\Views\CategoriasServicos\Index.g.cshtml.cs
